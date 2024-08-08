@@ -1,0 +1,101 @@
+:root {
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-slate-300: hsl(212, 45%, 89%);
+  --clr-slate-500: hsl(216, 15%, 48%);
+  --clr-slate-900: hsl(218, 44%, 22%);
+
+  --ff-base: Outfit, sans-serif;
+  --fs-body: 15px;
+  --fs-regular: 22px;
+  --fw-regular: 400;
+  --fw-bold: 700;
+}
+
+@font-face {
+  font-family: Outfit;
+  src: url(./Outfit-Regular.ttf);
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  line-height: 1.2;
+}
+
+body {
+  font-family: var(--ff-base);
+  font-size: var(--fs-body);
+  font-weight: var(--fw-regular);
+  background-color: var(--clr-slate-300);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.attribution { 
+  font-size: 11px;
+  text-align: center;
+  padding: 1em;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+h1 {
+  font-size: var(--fs-regular);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 320px;
+  padding: 16px;
+  text-align: center;
+  background-color: var(--clr-white);
+}
+
+.border-radius-10 {
+  border-radius: 10px;
+}
+
+.border-radius-20 {
+  border-radius: 20px;
+}
+
+.colour-accent {
+  color: var(--clr-slate-900);
+}
+
+.colour-normal {
+  color: var(--clr-slate-500);
+}
+
+.text-content {
+  padding: 16px;
+}
+
+.text-content p {
+  padding: 16px 0.3em;
+}
