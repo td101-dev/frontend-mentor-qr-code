@@ -40,7 +40,7 @@ blockquote,
 dl,
 dd {
   margin: 0;
-  line-height: 1.2;
+  line-height: 1.2em;
 }
 
 body {
@@ -98,4 +98,6 @@ h1 {
 
 .text-content p {
   padding: 16px 0.3em;
+  line-height: 1.4em;
+  letter-spacing: 0.2px;
 }
